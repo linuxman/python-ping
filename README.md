@@ -1,6 +1,8 @@
 # python-ping
 Una sencilla herramienta para verificar algunos elementos de una red usando python y fping.
 
+![Python Ping en ejecución](python_ping_terminal.gif)
+
 Su uso es realmente muy sencillo. Se puede ejecutar directamente desde la terminal.
 
 ```
@@ -40,8 +42,16 @@ Esta en segundos, así que un valor de 600 le da un tiempo de 10 minutos antes d
 ### Colorama
 Uso el módulo [colorama](https://pypi.org/project/colorama/) para darle color a la salida del programa. 
 
-Par instalarlo use la herramienta pip
+Para instalarlo use la herramienta pip
 
 ```
 sudo pip install colorama
 ```
+
+### fping
+Este programa utiliza [fping](https://fping.org/) en lugar del ping tradicional simplemente porque es más rápido.
+
+Asi que no se le olvide instalarlo en su equipo antes de ejecutar este programa.
+
+### Referencias.
+* [Python Ping, un script que revisa las direcciones IP de tu red (2018)](https://linuxmanr4.com/2018/05/10/python-ping-script-ip/)
