@@ -18,7 +18,7 @@
 # Pública General de GNU.
 #
 # Autor: LinuxmanR4
-# https://linuxmanr4.com
+# https://linuxmanr4.com/2018/05/10/python-ping-script-ip/
 #
 
 import os
